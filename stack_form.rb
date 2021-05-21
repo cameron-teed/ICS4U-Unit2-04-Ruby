@@ -23,8 +23,6 @@ begin
   user_param = gets.chomp
   user_param = user_param.to_i unless user_param.match(/[^[:digit:]]+/)
   puts
-  
-  
 
   # Gets user input and stores in an array
   while counter < user_param
@@ -37,7 +35,7 @@ begin
     # Adds one to counters
     counter += 1
   end
-  
+
   # Prints the top number in the stack
   puts "Peeked: #{class_stack.peek_stack}"
   puts "The numbers in the stack: #{class_stack.show_stack}"

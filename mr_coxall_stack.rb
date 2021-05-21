@@ -36,7 +36,7 @@ class MrCoxallStack
   # Method that clears the array
   def clear_stack
     @array_list.clear
-    return "Array has been cleared!"
+    'Array has been cleared!'
   end
 
   # Creates a string with the user inputted number
